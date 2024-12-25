@@ -1,0 +1,60 @@
+/* Style de base pour le header */
+.header {
+  background-color: #2a2828;  /* Fond coloré */
+  color: #fff;  /* Texte en blanc */
+  padding: 20px 0;  /* Espacement au-dessus et en-dessous */
+  position: sticky;  /* Le header reste en haut quand on fait défiler */
+  top: 0;
+  z-index: 10;  /* Assure que le header reste au-dessus des autres éléments */
+}
+
+.container {
+  display: flex;  /* Utilise flexbox pour la mise en page */
+  justify-content: space-between;  /* Espacement entre la logo et le menu */
+  align-items: center;  /* Centrer les éléments verticalement */
+  max-width: 1200px;  /* Largeur maximale */
+  margin: 0 auto;  /* Centrer le contenu */
+  padding: 0 20px;  /* Espacement à gauche et à droite */
+}
+
+/* Style pour le logo */
+.logo h1 {
+  font-family: 'Arial', sans-serif;  /* Choix de la police */
+  font-size: 2rem;  /* Taille de la police */
+  margin: 0;  /* Enlève la marge par défaut */
+}
+
+/* Style du menu de navigation */
+.navbar ul {
+  list-style: none;  /* Enlève les puces de la liste */
+  margin: 0;
+  padding: 0;
+  display: flex;  /* Affiche les éléments du menu en ligne */
+}
+
+.navbar li {
+  margin-left: 30px;  /* Espacement entre les éléments du menu */
+}
+
+.navbar a {
+  color: #fff;  /* Texte blanc */
+  text-decoration: none;  /* Enlève le souligné */
+  font-size: 1rem;  /* Taille de la police */
+  transition: color 0.3s ease;  /* Transition pour un effet au survol */
+}
+
+.navbar a:hover {
+  color: #f0a500;  /* Changer la couleur au survol */
+}
+
+/* Style pour le menu sur les petits écrans (mobile) */
+@media screen and (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;  /* Met les éléments du menu sur plusieurs lignes */
+    align-items: center;  /* Centre les éléments */
+  }
+
+  .navbar li {
+    margin: 10px 0;  /* Espacement vertical entre les éléments */
+  }
+}
