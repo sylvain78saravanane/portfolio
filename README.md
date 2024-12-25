@@ -1,3 +1,7 @@
+
+https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1#G1CzYNcjCcz_kOfoXAYVh7EBR_dU_Oh7s3
+
+
 # Portfolio
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
