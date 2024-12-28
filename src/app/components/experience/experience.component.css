@@ -1,0 +1,20 @@
+mat-card{
+  background-color: #ece7e3;
+  margin-bottom: 5pc;
+  margin-left: 5pc;
+  margin-right: 5pc;
+}
+
+mat-card-title{
+  margin-left: 2pc;
+}
+
+mat-card-subtitle{
+  margin-left: 2pc;
+  margin-bottom: 1pc;
+  margin-top: 0.5pc;
+}
+
+mat-card-content{
+  margin-left: 2pc;
+}

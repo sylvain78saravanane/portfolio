@@ -8,11 +8,11 @@ import {CertificationComponent} from './components/certification/certification.c
 
 
 const routes: Routes = [
-  {path:"",component:PortfolioComponent},
-  {path:"experience",component:ExperienceComponent},
-  {path:"project",component:ProjectComponent},
-  {path:"certification",component:CertificationComponent},
-  {path:"formulaire", component:FormulaireComponent},
+  {path:'',component:PortfolioComponent},
+  {path:'experience',component:ExperienceComponent},
+  {path:'project',component:ProjectComponent},
+  {path:'certification',component:CertificationComponent},
+  {path:'formulaire', component:FormulaireComponent},
 ];
 
 @NgModule({

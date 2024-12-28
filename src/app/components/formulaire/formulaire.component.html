@@ -1,3 +1,39 @@
 <app-header></app-header>
-<p>formulaire works!</p>
+
+<div class="container">
+  <button routerLink="" mat-fab aria-label="Example icon button with a delete icon">
+    <mat-icon>home</mat-icon>
+  </button>
+</div>
+
+<div class="container">
+  <h1>Contactez-moi</h1>
+</div>
+
+<div class="container">
+
+  <form class="example-form">
+
+    <mat-form-field class="example-full-width" *ngFor="let champ of champs ">
+      <mat-label>{{champ.label}}</mat-label>
+      <input matInput [type]="champ.type" placeholder="Insérez votre {{champ.label}}">
+    </mat-form-field>
+
+
+
+    <mat-form-field class="example-full-width" style="max-height: 15pc;">
+      <mat-label>Leave a comment</mat-label>
+      <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+    </mat-form-field>
+  </form>
+
+</div>
+
+<div class="container">
+  <button mat-fab aria-label="Example icon button with a delete icon">
+    <mat-icon>send</mat-icon>
+  </button>
+</div>
+
+
 <app-footer></app-footer>
