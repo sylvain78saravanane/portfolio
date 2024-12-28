@@ -1,0 +1,19 @@
+.links{
+  margin-top: 1pc;
+}
+
+.animated-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.4s ease-in-out;
+  /* Ajouter une transition fluide */
+}
+
+.animated-button:hover {
+  transform: scale(1.2) rotate(360deg); /* Zoom et rotation */
+}
+
